@@ -2,11 +2,9 @@
 Yes, a random game made using web stuffs
 
 Made with:
-- Tauri
-- HTML
-- CSS
-- JS
-- Rust
+- [Tauri](https://tauri.app/start/)
+- HTML / CSS / JS
+- [Rust](https://www.rust-lang.org/)
 
 Soon will be using:
 - [Web Game Library](https://github.com/BlueAmongUs/Web-Game-Library)
