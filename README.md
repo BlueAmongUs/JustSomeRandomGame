@@ -1,8 +1,6 @@
 # JustSomeRandomGame
 Basically, a random game made using web dev stuffs + Rust(tauri)
 
-<iframe frameborder="0" src="https://itch.io/embed/3077303" width="552" height="167"><a href="https://sussyblue.itch.io/justsomerandomgame">JustSomeRandomGame by sassyblu</a></iframe>
-
 Made with:
 - [Tauri](https://tauri.app/start/)
 - HTML / CSS / JS
