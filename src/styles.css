@@ -1,11 +1,13 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: large;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 900;
+
+  user-select: none;
 
   color: #0f0f0f;
-  background-color: #f6f6f6;
+  background-color: #f6f6f6;  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,7 +23,19 @@ body {
   padding: 0;
 }
 
-#start-menu {
+#start-title {
+  font-size: xx-large;
+  text-shadow: 0px 8px #020202, 0px 4px #050505, 0px 2px #0A0A0A;
+  font-weight: 900;
+}
+
+.disappear {
+  display: none;
+}
+
+.window {
+  display: block;
+  background: none;
   position: fixed;
   width: 800px;
   height: 600px;
@@ -36,7 +50,12 @@ body {
 }
 
 button {
-  font-size: larger;
+  font-size: 3rem;
+  transition: 250ms;
+}
+
+button:hover {
+  padding: 0 1rem;
 }
 
 @media (prefers-color-scheme: dark) {

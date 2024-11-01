@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Game</title>
-  <script type="module" src="main.js"></script>
+  <script type="module" defer src="main.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="start-menu">
-    <h1 id="title">JustSomeRandomGame!</h1>
-    <br>
-    <br>
-    <br>
-    <div id="buttons">
-      <button type="button" id="start">Start</button>
-      <br/>
-      <br/>
-      <button type="button" id="settings">Settings</button>
-    </div>
+  <div class="window" id="settings">
+
   </div>
+
+  <div class="window" id="game">
+
+  </div>
+
+  <div class="window" id="menu">
+    <h1 id="start-title">JustSomeRandomGame!</h1>
+    <br/>
+    <br/>
+    <br/>
+    <div id="buttons">
+      <button type="button" id="start-btn">Start</button>
+      <br/>
+      <br/>
+      <button type="button" id="settings-btn">Settings</button>
+    </div>
+  </div>  
+
   <canvas width="800" height="600" id="canvas">
     Your browser doesn't support canvas
   </canvas>
